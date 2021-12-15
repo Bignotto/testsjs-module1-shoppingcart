@@ -1,0 +1,32 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "ShoppingCart develop with TDD to parctice application testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:debug": "ndb jest"
+  },
+  "keywords": [
+    "javascript",
+    "test",
+    "tdd",
+    "jest"
+  ],
+  "author": "Thiago Bignotto",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.4.4",
+    "jest": "^27.4.4",
+    "ndb": "^1.1.5",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "dinero.js": "^1.9.1",
+    "lodash": "^4.17.21"
+  }
+}

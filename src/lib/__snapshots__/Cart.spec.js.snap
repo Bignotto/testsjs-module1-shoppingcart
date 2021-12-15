@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart checkout() should return an object with the total and a list of items 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "product": Object {
+        "price": 6875,
+        "title": "Fraldinha Red Angus",
+      },
+      "quantity": 2,
+    },
+    Object {
+      "product": Object {
+        "price": 11990,
+        "title": "Entranha Fina",
+      },
+      "quantity": 1,
+    },
+  ],
+  "total": 25740,
+}
+`;
+
+exports[`Cart checkout() should return an object with the total and a list of items when sumary() is calle 1`] = `
+Object {
+  "formattedTotal": "R$257.40",
+  "items": Array [
+    Object {
+      "product": Object {
+        "price": 6875,
+        "title": "Fraldinha Red Angus",
+      },
+      "quantity": 2,
+    },
+    Object {
+      "product": Object {
+        "price": 11990,
+        "title": "Entranha Fina",
+      },
+      "quantity": 1,
+    },
+  ],
+  "total": 25740,
+}
+`;
